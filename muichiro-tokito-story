@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color:black;
+  background-image:url("https://wallpaperaccess.com/full/29862.jpg");  
+  margin: 0;
+  padding: 0;
+}
+ background:image{ 
+    height:25px;
+    weight:10px;
+      }
+header {
+ background-color:gray;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 35px;
+}
+        
+.nav-links {
+   font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  gap: 32px;
+  padding: 16px;
+  text-shadow: 0 5px 15px #004e4a;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.rules {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgb(195, 250, 255);
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px #004e51;
+}
+
+h1 {
+  font-size: 30px;
+  text-shadow: 0 5px 15px #004e51;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+  color:black;
+}
+        
+h2 {
+  color:black;
+  border-bottom: 5px solid #90eee8;
+  padding-bottom: 5px;
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.header{
+  color: white;
+  text-shadow: 0 2px 10px #004e51;
+  font-size: 20px;
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  line-height: 1.6;
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+footer {
+  background-color:#806E79;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.foot{
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+footer a {
+  color:black;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+footer a:hover {
+  color:red;
+  text-decoration: underline;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Potta+One&family=Barriecito&family=Caveat+Brush&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+  </style>
+  <title>anime</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header>
+  <h1>Muichiro Tokito</h1>
+    <p class="header">A fantastic anime you must see.</p>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="story.html">story</a>
+      <a href="powers.html">powers</a>
+    </nav>
+</header>
+<div class="story">
+  <h2>1.Muichiro Tokito-Mist Hashira <h2>
+  <p>Muichiro Tokito is a skilled and talented swordsman from Demon Slayer: Kimetsu no Yaiba, serving as the Mist Hashira of the Demon Slayer Corps. Despite his young age, he possesses exceptional swordsmanship and an almost unmatched combat ability, earning his position among the elite Hashira in just two months of training. At first, Muichiro appears aloof, forgetful, and somewhat detached from others, often seeming lost in thought. However, beneath this distant demeanor lies a tragic past that shaped his personality — the loss of his family at a young age. Over time, his true compassionate nature begins to resurface, especially when he forms bonds with his comrades. His mastery of Mist Breathing and sharp tactical mind make him a formidable warrior against demons, and his journey reflects both growth in strength and rediscovery of empathy.</p>
+  <br>
+</div>
+<footer>
+  <p class="foot">&copy; 2025 Muichiro Tokito<br><a href="mailto:zainabanwar1101@gmail.com">Email us</a></p>
+</footer>
+</body>
+</html>
