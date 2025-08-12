@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color:#2A6594 ;
+  
+}
+
+header {
+  background-color: #000A57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.world {
+  text-shadow: 0 2px 10px #002465;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 30px;
+  font-family: "Gamja Flower", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0 2px 10px #bcd4ff;
+}
+h2{
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+nav {
+  margin-top: 10px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #00193c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li{
+     font-size: 20px;
+    line-height: 1.6;
+    color: #00193c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.about{
+    padding: 20px;
+    margin: 50px;
+    background-color: #7484ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #006084;
+
+}
+.news{
+    padding: 20px;
+    margin: 50px;
+    background-color: #7484ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #006084;
+
+}
+.player{
+    padding: 40px;
+    margin: 10px;
+    background-color:#480F4D;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 10px #002e41;
+}
+.player:hover{
+    padding: 45px;
+    background-color: #002437;
+    transition-duration: 0.4s;
+}
+.ch{
+  color: white;
+  text-shadow: 0 2px 10px #000000;
+}
+.fam
+{
+    text-shadow: 0 2px 10px #00161e;
+    color: rgb(0, 43, 69);
+}
+.ren
+{
+    text-shadow: 0 2px 10px #effbff;
+    color: rgb(0, 35, 57);
+    font-size: 30px;
+    margin-bottom: 50px;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+.famous-players 
+{
+   padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-shadow: 0 2px 10px #7dd7f8;
+}
+.players 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 10px;
+}
+footer 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color:#545454  ;
+    color:rgb(183, 224, 250);
+    text-align: center;
+}
+footer a 
+{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover 
+{
+    color: #9edaff;
+    text-decoration: underline;
+}
+.za{
+  color:rgb(183, 224, 250);
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cherry+Bomb+One&family=Jolly+Lodger&family=Gamja+Flower&family=Potta+One&display=swap');
+</style>
+  <meta charset="UTF-8">
+  <title>demon slayer- Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="world">Welcome to anime World</h1>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="story.html">story</a>
+      <a href="character.html">character </a>
+    </nav>
+  </header>
+  <main>
+    <div class="about">
+    <h2>About demon slayer</h2>
+    <p > Demon Slayer is a Japanese anime and manga series about a boy named Tanjiro who becomes a demon slayer after his family is killed by demons. His sister Nezuko turns into a demon, but still shows human emotions. Tanjiro fights demons to protect others and find a way to turn Nezuko back into a human.</p>
+    <p>It’s known for its exciting battles, strong emotions, and beautiful animation. </p>
+    </div>
+    <div class="news">
+      <h2>spoilers</h2>
+      <ul>
+        <li>Upcoming exciting  movie.</li>
+        <li> "Demon Slayer: Infinity Castle," Tanjiro and the Hashira are drawn into Muzan Kibutsuji’s lair for a climactic battle against the Upper Rank demons in a visually stunning showdown.</li>
+        <li>muzan gonna die in this movie.</li>
+      </ul>
+      </div>
+      <div class="famous-players">
+        <h2 class="fam">Favourites .</h2>
+        <p class="ren">My Favourites 𓆩♡𓆪</p>
+      </div>
+      <section class="players">
+      <div class="player">
+        <p class="ch">Muichiro tokito</p>
+      </div>
+      <div class="player">
+        <p class="ch">Shinobu kocho</p>
+      </div>
+      <div class="player">
+        <p class="ch">inosuke hashibara</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="za">&copy; ibrahim anwar</p>
+    <p><a href="https://github.com/ibrahim-anwar-1101/swril11">My Github</a></p>
+  </footer>
+</body>
+</html>
