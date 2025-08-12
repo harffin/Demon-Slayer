@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMON SLAYER SHOWCASE</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+body {
+    font-family: 'Lato', sans-serif;
+    background-color:#2B6566;
+    color: #dcdde1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color:#70B2B3;
+    padding: 60px 20px;
+    border-bottom: 5px solid BLACK;
+}
+header h1 {
+    font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+    color: #f5f6fa;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #30fee9;
+     font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-links {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    gap: 32px;
+    padding: 16px;
+    text-shadow: 0 2px 10px #003b38;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.class{
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.section {
+    display: inline-block; 
+    width: 300px;
+    margin: 15px;
+    background-color: #003d93;
+    border: 2px solid #30dffe;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease;
+    vertical-align: top;
+}
+.section:hover {
+    transform: scale(1.05);
+    border-color: #b33beb;
+}
+.section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #eb3beb;
+}
+.section .content {
+    padding: 20px;
+}
+
+.section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8em;
+    margin: 0 0 5px 0;
+    color: #f5f6fa;
+}
+.section .position {
+    font-size: 1.1em;
+    color: #d13beb;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section p {
+    font-size: 0.9em;
+    color: #dcdde1;
+    margin: 0;
+}
+footer {
+    background-color: #00214f;
+    color: #dcdde1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #30feed;
+}
+.section {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Barriecito&family=Cherry+Bomb+One&family=Jolly+Lodger&family=Gamja+Flower&family=Potta+One&display=swap');
+    </style>
+    </head>
+<body>
+
+    <header>
+        <h1>Demon slayer Showcase</h1>
+        <p class="header">A look at some of the best charater of this anime.</p>
+         <nav class="nav-links">
+      <a href="Home.html">Home</a>
+      <a href="Story.html">Story</a>
+      <a href="Charaters.html">Characters</a>
+    </nav>
+    </header>
+    
+    <div class="class">
+        <div class="section">
+            <img src="https://i.pinimg.com/originals/28/f4/04/28f4043067681f063f8c1369942b05e5.jpg">
+            <div class="content">
+                <h2>MUOICHIRO TOKITO</h2>
+                <h3>Forward</h3>
+                <p>An amazing character of an amazing anime. Also my favourite.💙💙💙</p>
+            </div>
+        </div>
+        <div class="section">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.zRlxJzD_pIJNmB3LKW52KQHaEK?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3">
+            <div class="content">
+                <h2>Iguro obanai</h2>
+                <h3>Forward</h3>
+                <p>Have sadest back story in all hashiras.</p>
+            </div>
+        </div>
+        <div class="section">
+            <img src="https://staticg.sportskeeda.com/editor/2024/06/f7d89-17180320126163-1920.jpg">
+            <div class="content">
+                <h2>sanemi shinazugawa</h2>
+                <h3>Forward</h3>
+                <p>Sanemi Shinazugawa is the fierce and volatile Wind Hashira of the Demon Slayer Corps.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 demon slayer Showcase. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
